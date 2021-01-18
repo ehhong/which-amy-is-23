@@ -7,74 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
-
-<style>
-    /* The container */
-    .container {
-      display: block;
-      position: relative;
-      padding-left: 35px;
-      margin-bottom: 12px;
-      cursor: pointer;
-      font-size: 22px;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
     
-    /* Hide the browser's default radio button */
-    .container input {
-      position: absolute;
-      opacity: 0;
-      cursor: pointer;
-    }
-    
-    /* Create a custom radio button */
-    .checkmark {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 25px;
-      width: 25px;
-      background-color: #eee;
-      border-radius: 50%;
-    }
-    
-    /* On mouse-over, add a grey background color */
-    .container:hover input ~ .checkmark {
-      background-color: #ccc;
-    }
-    
-    /* When the radio button is checked, add a blue background */
-    .container input:checked ~ .checkmark {
-      background-color: #2196F3;
-    }
-    
-    /* Create the indicator (the dot/circle - hidden when not checked) */
-    .checkmark:after {
-      content: "";
-      position: absolute;
-      display: none;
-    }
-    
-    /* Show the indicator (dot/circle) when checked */
-    .container input:checked ~ .checkmark:after {
-      display: block;
-    }
-    
-    /* Style the indicator (dot/circle) */
-    .container .checkmark:after {
-         top: 9px;
-        left: 9px;
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: white;
-    }
-    </style>
-    
-    <body>
+<body>
 
     <marquee>welcome to the amy universe. we're glad you're here. it's nice to see you. how has your day been? we've been thinking of you!</marquee>
     <h1 align="center">the birthday quiz</h1>
@@ -82,45 +16,49 @@
     <div class="question" id="one">
         <h1>1. It's Amy's birthday! Which gift would you most like to receive?</h1>
         <label class="container">A LinkedIn Premium subscription and a viral post starting with “I'm going back to Seattle this fall, this time as a PM at Microsoft!”
-          <input type="radio" checked="checked" name="radio">
-          <span class="checkmark"></span>
+            <input type="radio" checked="checked" name="radioone" value="1">
+            <span class="checkmark"></span>
         </label>
         <label class="container">savage sunglasses
-          <input type="radio" name="radio">
-          <span class="checkmark"></span>
+            <input type="radio" name="radioone" value="2">
+            <span class="checkmark"></span>
         </label>
         <label class="container">a fluffy doggo
-          <input type="radio" name="radio">
-          <span class="checkmark"></span>
+            <input type="radio" name="radioone" value="3">
+            <span class="checkmark"></span>
         </label>
         <label class="container">A serenade by a live string quartet
-          <input type="radio" name="radio">
-          <span class="checkmark"></span>
+            <input type="radio" name="radioone" value="4">
+            <span class="checkmark"></span>
         </label>
         <label class="container">A (promising) status update to your Harvard application portal
-          <input type="radio" name="radio">
-          <span class="checkmark"></span>
+            <input type="radio" name="radioone" value="5">
+            <span class="checkmark"></span>
         </label>
         <label class="container">Fan art from my most loyal vlog followers + a subscription from Joss Fong
-          <input type="radio" name="radio">
-          <span class="checkmark"></span>
+            <input type="radio" name="radioone" value="6">
+            <span class="checkmark"></span>
         </label>
         <label class="container">1,000,000 early registrants for Harvard WeCode
-          <input type="radio" name="radio">
-          <span class="checkmark"></span>
+            <input type="radio" name="radioone" value="7">
+            <span class="checkmark"></span>
         </label>
         <label class="container">a viral tweet of my dog
-          <input type="radio" name="radio">
-          <span class="checkmark"></span>
+            <input type="radio" name="radioone" value="8">
+            <span class="checkmark"></span>
         </label>
     </div>
 
     <div class="answer">
         <h1>congrats, you are amy zhou! but what type of amy, you ask?</h1>
-        <h2>insert description</h2>
+        <h2>corporate amy</h2>
+        <img src="assets/corporate_amy.jpeg">
         <p>LinkedIn Message from Corporate Amy. “Please add me to your LinkedIn network.” I have extensive experience in retail and information technology industries, having worked as a sales associate at OfficeWorks and Product Management Intern at Microsoft. Some of my (endorsed) technical skills include pipetting, time management, pancake flipping, and C++. Thank you to my amazing recruiter Maggie Bott for helping me navigate Microsoft recruiting! #microsoft #pm #intern #seattle #summer</p>
     </div>
-    
-    </body>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="main.js"></script>
 
 </html>
