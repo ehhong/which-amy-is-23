@@ -149,6 +149,7 @@ h3 {
 .splitscreen {
   display:flex;
   margin: auto;
+  padding:2vh;
 
 }
 .splitscreen .left {
@@ -156,6 +157,10 @@ h3 {
 }
 .splitscreen .right {
   flex: 1;
+}
+
+.opening_gif {
+  margin: auto;
 }
 
 @media screen and (min-width: 1000px) {
@@ -170,6 +175,12 @@ h3 {
   .splitscreen .right {
     flex: 1;
     padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .opening_gif {
+    width: 100%
   }
 }
 
