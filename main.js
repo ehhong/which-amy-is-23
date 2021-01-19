@@ -141,37 +141,37 @@ const DESCRIPTIONS = {
     },
     [AMYTYPES.SAVAGE]:
     {
-        photo: "assets/corporate_amy.jpeg",
+        photo: "assets/savage_amy.png",
         description: "Congrats! You are none other than the badass mf SAVAGE AMY. That's right. Don't be fooled by Amy's brightly-colored hair or cheery attitude. Savage Amy is out to get you, right when you least expect it. Savage Amy's tagline? ROASTED. Woohoo!"
     },
     [AMYTYPES.MEMEY]:
     {
-        photo: "assets/corporate_amy.jpeg",
+        photo: "assets/amy_coffee.gif",
         description: "Amy Memey. uwu Amy. Doggo Amy. Amy Memey is the Amy of spontaneity, goofy faces, and wholesomeness. Amy Memey is sunshine breaking through the clouds, a reminder to take life one chuckle at a time. heh. heck my lyfe."
     },
     [AMYTYPES.CM]:
     {
-        photo: "assets/corporate_amy.jpeg",
+        photo: "assets/cm_amy2.JPG",
         description: "This is CM (director) Amy, and you're listening to WHRB 95.3FM. Next up, we have 4'33\" performed by John Cage brought to you on a Deutsche Grammophon compact disc. Also, ACs are due tonight at midnight so plan accordingly and get them in if you haven’t yet! The later they are the later your pick for semester air :("
     },
     [AMYTYPES.HS]:
     {
-        photo: "assets/corporate_amy.jpeg",
+        photo: "assets/asian_science_amy.gif",
         description: "We can only guess what high school Amy was like, but this is how we imagine her: optimistic, passionate, and ready for the world. \"Hi, I'm Amy and I live in Gold Coast, Australia. I am an IB Diploma Recipient with a burning passion for STEM, especially women in STEM. One of the reasons I love STEM is because it is our future, and I cannot wait for mine! Of course, it’s impossible to really predict my future, but I’m extremely excited to see where life will take me!\""
     },
     [AMYTYPES.VLOG]:
     {
-        photo: "assets/corporate_amy.jpeg",
+        photo: "assets/amy_runs.gif",
         description: "You are none other than Amy's second-most public persona: vlogger Amy. POV: you’re stuck in quarantine for 2 weeks, but you have a half marathon next week. You look around your 100 square foot hotel room. How many laps equal 26.2 miles? You grab your favourite specsaver bluelight reading glasses, remembering that you have the eyes of a 60-year-old at the ripe age of 23, punch in numbers on your calculator while taking a bite out of a head of broccoli. Only 3,458.4 laps. Taking a big gulp of water—don’t forget to stay hydrated—you set your timer, set your phone camera to selfie mode, and start to jog."
     },
     [AMYTYPES.WECODE]:
     {
-        photo: "assets/corporate_amy.jpeg",
+        photo: "assets/amy_drinks.gif",
         description: "Congrats, you are WECode Amy! Crazy to believe that there was SO much interest for Harvard WECode 2020 that we sold out during Early Registration...before we even opened General Registration! We're so excited to welcome almost 800 attendees to Harvard's campus on March 6-8, 2020!"
     },
     [AMYTYPES.TWITTER]:
     {
-        photo: "assets/corporate_amy.jpeg",
+        photo: "assets/amy_twitter.gif",
         description: "You are none other than Twitter Amy, the Amy of news, media recommendations, (professional) memes, and advocacy #VoteEarlyMailEarly.  You are the queen of the quote tweet, adding a tasteful number of exclamation marks and emoji to the national conversation, and your followers thank you for it. Waffles always. #IntelISEF"
     }
 };
@@ -258,6 +258,8 @@ function showResults(){
             <img src=${DESCRIPTIONS[maxAmyType].photo}>
             <p>${DESCRIPTIONS[maxAmyType].description}</p>
         </div>;`
+
+    resultsContainer.scrollIntoView();
 }
 
 // display quiz right away
