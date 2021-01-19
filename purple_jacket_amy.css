@@ -149,21 +149,29 @@ h3 {
 .splitscreen {
   display:flex;
   margin: auto;
-  padding:10vh;
+
 }
 .splitscreen .left {
   flex: 2;
 }
 .splitscreen .right {
   flex: 1;
-  padding-top: 5px;
 }
-/* 
-@media screen and (max-width: 600px) {
+
+@media screen and (min-width: 600px) {
   .splitscreen {
-    display: none;
+    display:flex;
+    margin: auto;
+    padding:10vh;
   }
-} */
+  .splitscreen .left {
+    flex: 2;
+  }
+  .splitscreen .right {
+    flex: 1;
+    padding-top: 5px;
+  }
+}
 
 /* loading dots */
 
