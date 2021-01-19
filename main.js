@@ -17,25 +17,25 @@ const QUESTIONS = [
     question: "It's Amy's birthday! Which gift would you most like to receive?",
     answers: {
         [AMYTYPES.CORPORATE]: "A LinkedIn Premium subscription and a viral post starting with \“I'm going back to Seattle this fall, this time as a PM at Microsoft!\”",
-        [AMYTYPES.SAVAGE]: "savage sunglasses",
-        [AMYTYPES.MEMEY]: "a fluffy doggo",
+        [AMYTYPES.SAVAGE]: "Savage sunglasses",
+        [AMYTYPES.MEMEY]: "A fluffy doggo",
         [AMYTYPES.CM]: "A serenade by a live string quartet",
         [AMYTYPES.HS]: "A (promising) status update to your Harvard application portal",
         [AMYTYPES.VLOG]: "Fan art from my most loyal vlog followers + a subscription from Joss Fong",
         [AMYTYPES.WECODE]: "1,000,000 early registrants for Harvard WeCode",
-        [AMYTYPES.TWITTER]: "a viral tweet of my dog"
+        [AMYTYPES.TWITTER]: "A viral tweet of my dog"
     }
 },
 {
   question: "Amy's going out for the night–which outfit do you wear?",
   answers: {
-      [AMYTYPES.CORPORATE]: "a blazer, a blouse, and a nice pair of slacks",
-      [AMYTYPES.SAVAGE]: "a \"2 cool 4 skool\" graphic tee",
-      [AMYTYPES.MEMEY]: "Guy Fieri\'s hawaiian shirt with flames on it",
-      [AMYTYPES.CM]: "concert black",
-      [AMYTYPES.HS]: "a lab coat and goggles",
+      [AMYTYPES.CORPORATE]: "A blazer, a blouse, and a nice pair of slacks",
+      [AMYTYPES.SAVAGE]: "A \"2 cool 4 skool\" graphic tee",
+      [AMYTYPES.MEMEY]: "Guy Fieri\'s Hawaiian shirt with flames on it",
+      [AMYTYPES.CM]: "Concert black",
+      [AMYTYPES.HS]: "A lab coat and goggles",
       [AMYTYPES.VLOG]: "Anything, as long as I have my ring light with me",
-      [AMYTYPES.WECODE]: "A wecode tshirt (Did I mention that WeCode's early registration deadline has been extended until January 16?)",
+      [AMYTYPES.WECODE]: "A WECode tshirt (Did I mention that WECode's early registration deadline has been extended until January 16?)",
       [AMYTYPES.TWITTER]: "Purple jacket on top of salmon-colored fuzzy pat and a customized Etsy mask"
   }
 },
@@ -44,7 +44,7 @@ const QUESTIONS = [
   answers: {
       [AMYTYPES.CORPORATE]: "*A firm handshake*",
       [AMYTYPES.SAVAGE]: "Do you deserve to hire me? Let me ask a couple questions.",
-      [AMYTYPES.MEMEY]: "taaaake onnn meeeee! TAKE ON ME!",
+      [AMYTYPES.MEMEY]: "Taaaake onnn meeeee! TAKE ON ME!",
       [AMYTYPES.CM]: "Here's a Liszt of reasons why I can Handel this position.",
       [AMYTYPES.HS]: "Please",
       [AMYTYPES.VLOG]: "Hey guys! Welcome to my channel. Today I\'ll be talking about why I'd be a good addition to your company.",
@@ -56,8 +56,8 @@ const QUESTIONS = [
   question: "Your manager has granted you a day off from work, what do you do?",
   answers: {
       [AMYTYPES.CORPORATE]: "Leetcode and read Cracking the PM Interview",
-      [AMYTYPES.SAVAGE]: "organize an open mic roast for my dearest friends",
-      [AMYTYPES.MEMEY]: "watch animal videos and tiktoks for 8 hrs",
+      [AMYTYPES.SAVAGE]: "Organize an open mic roast for my dearest friends",
+      [AMYTYPES.MEMEY]: "Watch animal videos and Tiktok for 8 hours",
       [AMYTYPES.CM]: "Dissociate to Debussy",
       [AMYTYPES.HS]: "Apply to Asian Science Camp",
       [AMYTYPES.VLOG]: "Train for the Boston Marathon and film my latest vlog",
@@ -110,11 +110,11 @@ const QUESTIONS = [
       [AMYTYPES.CORPORATE]: "What the?",
       [AMYTYPES.SAVAGE]: "What the heck?",
       [AMYTYPES.MEMEY]: "What the flip?",
-      [AMYTYPES.CM]: "*record scratch*",
+      [AMYTYPES.CM]: "*Record scratch*",
       [AMYTYPES.HS]: "Bugger! \“I have to go to lab.\”",
       [AMYTYPES.VLOG]: "What the *beep*?",
       [AMYTYPES.WECODE]: "What the fork?",
-      [AMYTYPES.TWITTER]: "*quote tweet*"
+      [AMYTYPES.TWITTER]: "*Quote tweet*"
   }
 },
 {
