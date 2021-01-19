@@ -249,14 +249,21 @@ function showResults(){
             maxAmyType = amyType;
         }
     }
-    console.log(maxAmyType);
 
-    resultsContainer.innerHTML =
-        `<div class="answer">
-            <h1>congrats, you are ${maxAmyType}</h1>
-            <img src=${DESCRIPTIONS[maxAmyType].photo}>
-            <p>${DESCRIPTIONS[maxAmyType].description}</p>
-        </div>`
+    if (maxAmyType == "") {
+        resultsContainer.innerHTML =
+            `<div class="answer">
+                <p>You are a mystery––we have no idea which Amy you are. Please answer some questions and try again.</p>
+            </div>`
+    }
+    else {
+        resultsContainer.innerHTML =
+            `<div class="answer">
+                <h1>congrats, you are ${maxAmyType}</h1>
+                <img src=${DESCRIPTIONS[maxAmyType].photo}>
+                <p>${DESCRIPTIONS[maxAmyType].description}</p>
+            </div>`
+    }
 
     resultsContainer.scrollIntoView();
 
