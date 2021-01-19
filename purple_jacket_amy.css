@@ -144,8 +144,12 @@ h3 {
   font-family:'Courier New'
 }
 
+
+
 .splitscreen {
   display:flex;
+  margin: auto;
+  padding:10vh
 }
 .splitscreen .left {
   flex: 2;
@@ -153,6 +157,12 @@ h3 {
 .splitscreen .right {
   flex: 1;
 }
+/* 
+@media screen and (max-width: 600px) {
+  .splitscreen {
+    display: none;
+  }
+} */
 
 /* loading dots */
 
@@ -178,115 +188,4 @@ h3 {
   100% {
     text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
   }
-}
-
-
-/* The container */
-.container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  /* Hide the browser's default radio button */
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  /* Create a custom radio button */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
-  }
-
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-
-  /* When the radio button is checked, add a blue background */
-  .container input:checked ~ .checkmark {
-    background-color: #2196F3;
-  }
-
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-
-  /* Show the indicator (dot/circle) when checked */
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-
-  /* Style the indicator (dot/circle) */
-  .container .checkmark:after {
-        top: 9px;
-      left: 9px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: white;
-  }
-
-.question, img, .answer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
-
-.question {
-    /* border-image: url("assets/amy_eats_burrito.jpg") 27 space; */
-    margin-bottom: 75px;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.submit {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-.submit:hover {background-color: #3e8e41}
-
-.submit:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
