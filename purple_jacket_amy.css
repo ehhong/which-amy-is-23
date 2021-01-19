@@ -154,9 +154,11 @@ h3 {
 }
 .splitscreen .left {
   flex: 2;
+  padding-left: 9px;
 }
 .splitscreen .right {
   flex: 1;
+  padding-top: 7px;
 }
 
 .opening_gif {
@@ -174,17 +176,13 @@ h3 {
   }
   .splitscreen .right {
     flex: 1;
-    padding-top: 7px;
+    
   }
 }
 
 @media screen and (max-width: 800px) {
   .opening_gif {
     width: 100%
-  }
-  .splitscreen .left {
-    flex: 2;
-    padding-left: 9px;
   }
 }
 
