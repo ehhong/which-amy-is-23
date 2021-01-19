@@ -182,6 +182,14 @@ h3 {
   .opening_gif {
     width: 100%
   }
+  .splitscreen .left {
+    flex: 2;
+    padding-left: 7px;
+  }
+  .splitscreen .right {
+    flex: 1;
+    padding-top: 3px;
+  }
 }
 
 /* loading dots */
