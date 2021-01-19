@@ -141,7 +141,7 @@ const DESCRIPTIONS = {
     },
     [AMYTYPES.SAVAGE]:
     {
-        photo: "assets/savage_amy.png",
+        photo: "assets/amy_scream_wrong_number.gif",
         description: "Congrats! You are none other than the badass mf SAVAGE AMY. That's right. Don't be fooled by Amy's brightly-colored hair or cheery attitude. Savage Amy is out to get you, right when you least expect it. Savage Amy's tagline? ROASTED. Woohoo!"
     },
     [AMYTYPES.MEMEY]:
