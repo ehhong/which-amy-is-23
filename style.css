@@ -1,4 +1,11 @@
+@font-face { font-family: Migra-Bold; src: url('fonts/MigraItalic-ExtraboldItalic.ttf'); } 
+@font-face { font-family: Migra-Light; src: url('fonts/MigraItalic-ExtralightItalic.ttf'); } 
+@font-face { font-family: Galano; src: url('fonts/GalanoClassicLight.otf'); } 
+@font-face { font-family: Galano-Med; src: url('fonts/GalanoClassicMedium.otf');} 
+
+    
     /* The container */
+
     .container {
         display: block;
         position: relative;
@@ -69,13 +76,51 @@
     width: 75%;
 }
 
+#header {
+    font-family: Migra-light;
+    font-size: 6em;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+	}
+
+	70% {
+        transform: scale(1);
+    	}
+
+	100% {
+		transform: scale(0.9);
+	}
+}
+
 .question {
     /* border-image: url("assets/amy_eats_burrito.jpg") 27 space; */
     margin-bottom: 75px;
 }
 
+.amy {
+    background-color: pink;
+    padding: 2px 5px 2px 5px;
+    color:#0F1518;
+    border-radius: 5px;
+    font-family: Migra-light;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0F1518;
+}
+
+p, label {
+    font-family: Galano;
+}
+
+h1, button, marquee {
+    font-family: Galano-Med;
 }
 
 .submit {
@@ -106,4 +151,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+img {
+    border-radius: 25px;
+    border: 5px solid pink;
 }

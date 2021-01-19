@@ -256,7 +256,7 @@ function showResults(){
             <h1>congrats, you are ${maxAmyType}</h1>
             <img src=${DESCRIPTIONS[maxAmyType].photo}>
             <p>${DESCRIPTIONS[maxAmyType].description}</p>
-        </div>;`
+        </div>`
 
     resultsContainer.scrollIntoView();
 
