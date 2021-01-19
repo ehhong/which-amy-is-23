@@ -259,7 +259,7 @@ function showResults(){
     else {
         resultsContainer.innerHTML =
             `<div class="answer">
-                <h1>congrats, you are ${maxAmyType}</h1>
+                <h1>Congrats, you are ${maxAmyType}!</h1>
                 <img src=${DESCRIPTIONS[maxAmyType].photo}>
                 <p>${DESCRIPTIONS[maxAmyType].description}</p>
             </div>`
