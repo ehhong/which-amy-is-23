@@ -123,6 +123,14 @@ h1, button, marquee {
     font-family: Galano-Med;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+#bur {
+    margin-bottom: 50px;
+}
+
 .submit {
   display: inline-block;
   padding: 15px 25px;
