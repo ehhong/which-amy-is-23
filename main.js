@@ -260,6 +260,9 @@ function showResults(){
         </div>;`
 
     resultsContainer.scrollIntoView();
+
+    var audio = new Audio("assets/heart_react.m4a");
+    audio.play();
 }
 
 // display quiz right away
