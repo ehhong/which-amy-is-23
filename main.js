@@ -253,8 +253,7 @@ function showResults(){
 
     resultsContainer.innerHTML =
         `<div class="answer">
-            <h1>congrats, you are amy zhou! but what type of amy, you ask?</h1>
-            <h2>${maxAmyType}</h2>
+            <h1>congrats, you are ${maxAmyType}</h1>
             <img src=${DESCRIPTIONS[maxAmyType].photo}>
             <p>${DESCRIPTIONS[maxAmyType].description}</p>
         </div>;`
