@@ -146,11 +146,11 @@ h1 {
   box-shadow: 0 9px #777;
 }
 
-.submit:hover {background-color: darksalmon}
+.submit:hover {background-color: #ff8095}
 
 .submit:active {
-  background-color: darksalmon;
-  box-shadow: 0 5px #555;
+  background-color: #ff8095;
+  box-shadow: 0 5px #444;
   transform: translateY(4px);
 }
 
