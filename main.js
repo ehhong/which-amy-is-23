@@ -30,11 +30,11 @@ const QUESTIONS = [
   question: "Amy's going out for the night–which outfit do you wear?",
   answers: {
       [AMYTYPES.CORPORATE]: "A blazer, a blouse, and a nice pair of slacks",
-      [AMYTYPES.SAVAGE]: "A \"2 cool 4 skool\" graphic tee",
-      [AMYTYPES.MEMEY]: "Guy Fieri\'s Hawaiian shirt with flames on it",
+      [AMYTYPES.SAVAGE]: "An \"I took CS50.\" graphic tee but the message printed upside down :o",
+      [AMYTYPES.MEMEY]: "Oversized red winter coat. Hood on. ",
       [AMYTYPES.CM]: "Concert black",
       [AMYTYPES.HS]: "A lab coat and goggles",
-      [AMYTYPES.VLOG]: "Anything, as long as I have my ring light with me",
+      [AMYTYPES.VLOG]: "I'll wear what Leo's wearing.",
       [AMYTYPES.WECODE]: "A WECode tshirt (Did I mention that WECode's early registration deadline has been extended until January 16?)",
       [AMYTYPES.TWITTER]: "Purple jacket on top of salmon-colored fuzzy pat and a customized Etsy mask"
   }
@@ -61,7 +61,7 @@ const QUESTIONS = [
       [AMYTYPES.CM]: "Dissociate to Debussy",
       [AMYTYPES.HS]: "Apply to Asian Science Camp",
       [AMYTYPES.VLOG]: "Train for the Boston Marathon and film my latest vlog",
-      [AMYTYPES.WECODE]: "Draft my latest WECode email. #1dayleft #girlpower #WomenInTech #RegisterNow",
+      [AMYTYPES.WECODE]: "Draft the next WECode email. #1dayleft #girlpower #WomenInTech #RegisterNow",
       [AMYTYPES.TWITTER]: "Promote voter registration #iVoted"
   }
 },
@@ -105,7 +105,7 @@ const QUESTIONS = [
   }
 },
 {
-  question: "You see something WACK. How do you respond? What the …",
+  question: "You see something WACK. How do you respond?",
   answers: {
       [AMYTYPES.CORPORATE]: "What the?",
       [AMYTYPES.SAVAGE]: "What the heck?",
@@ -121,7 +121,7 @@ const QUESTIONS = [
   question: "What late night text do you send to Dylan?",
   answers: {
       [AMYTYPES.CORPORATE]: "Looking forward to our business relationship.",
-      [AMYTYPES.SAVAGE]: "Sorry, wrong Dylan / Dhilan",
+      [AMYTYPES.SAVAGE]: "Sorry, wrong Dhilan",
       [AMYTYPES.MEMEY]: ";-)))",
       [AMYTYPES.CM]: "Did you just move from the subdominant to the supertonic? Because I think you\'re my perfect counterpoint.",
       [AMYTYPES.HS]: "If I were an enzyme, I\'d be DNA helicase so I could unzip your genes.",
