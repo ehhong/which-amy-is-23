@@ -211,3 +211,88 @@ h3 {
     text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
   }
 }
+
+button{
+  font-family: Galano-Med;
+}
+
+marquee {
+  font-family: Galano-Med;
+  color: white
+}
+
+.submit {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: pink;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #777;
+}
+
+.submit:hover {background-color: #ff99aa}
+
+.submit:active {
+  background-color: #ff99aa;
+  box-shadow: 0 5px #555;
+  transform: translateY(4px);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@font-face { font-family: Galano-Med; src: url('fonts/GalanoClassicMedium.otf');}
+
+h1 {
+  font-family: Galano-Med;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+
+
+
+.submitted {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: rgb(63, 50, 53);
+  border: none;
+  border-radius: 5px;
+}
+
+.submitted:hover {background-color: #ff99aaf9}
+
+.submitted:active {
+  background-color: #ff99aa;
+  box-shadow: 0 5px #555;
+  transform: translateY(4px);
+}
